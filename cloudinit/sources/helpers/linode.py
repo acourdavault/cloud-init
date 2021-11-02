@@ -47,16 +47,17 @@ def is_baremetal():
 # Confirm is Linode
 def is_linode():
     # VC2, VDC, and HFC use DMI
-    sysinfo = get_sysinfo()
+    return True
+    # sysinfo = get_sysinfo()
 
-    if sysinfo['manufacturer'] == "Linode":
-        return True
+    # if sysinfo['manufacturer'] == "Linode":
+    #     return True
 
-    # Baremetal requires a kernel parameter
-    if "linode" in util.get_cmdline().split():
-        return True
+    # # Baremetal requires a kernel parameter
+    # if "linode" in util.get_cmdline().split():
+    #     return True
 
-    return False
+    # return False
 
 
 # Read Metadata endpoint
