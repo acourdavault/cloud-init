@@ -39,7 +39,7 @@ datasource:
 A new feature in cloud-init identified possible datasources for
 this system as:
   {dslist}
-However, the datasource used was: {source}
+However, the datasource used was:(AC) {source}
 
 In the future, cloud-init will only attempt to use datasources that
 are identified or specifically configured.
