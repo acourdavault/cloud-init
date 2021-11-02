@@ -59,6 +59,7 @@ environments in the public cloud:
 - SmartOS
 - UpCloud
 - Vultr
+- Linode
 - Zadara Edge Cloud Platform
 
 Additionally, cloud-init is supported on these private clouds:

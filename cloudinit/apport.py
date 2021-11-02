@@ -27,6 +27,7 @@ KNOWN_CLOUD_NAMES = [
     'Exoscale',
     'Hetzner Cloud',
     'IBM - (aka SoftLayer or BlueMix)',
+    'Linode',
     'LXD',
     'MAAS',
     'NoCloud',
