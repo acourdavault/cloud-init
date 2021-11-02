@@ -117,7 +117,7 @@ class DataSourceLinode(sources.DataSource):
 
 # Used to match classes to dependencies
 datasources = [
-    (DataSourceLinode, (sources.DEP_FILESYSTEM, )),
+    (DataSourceLinode, (sources.DEP_FILESYSTEM,sources.DEP_NETWORK )),
 ]
 
 
